@@ -27,7 +27,5 @@ multiplicacion_lista = list(map(multiplicacion, Numeros_int))
 pares = list(map(num_pares, Numeros_int))
 print(f'Multiplicacion de {numero_random} por cada numero de la lista: {multiplicacion_lista}')
 print(f'Cada True es un numero par: {pares}')
-        
-
     
 
