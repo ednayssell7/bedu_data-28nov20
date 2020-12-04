@@ -39,6 +39,6 @@ def download_github_user_avatar(avatar_url, username):
 
 username = input('Give a github usarname to check his/her followers:\t')
 user = get_github_user(username)
-get_followers = consult_users_followers(user['followers_url'], username)
-filename = download_github_user_avatar(user['avatar_url'], username)
+get_followers = consult_users_followers(followers_url, username)
+#filename = download_github_user_avatar(user['avatar_url'], username)
 print(filename)
