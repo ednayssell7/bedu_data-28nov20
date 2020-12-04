@@ -23,7 +23,7 @@ def download_github_user_avatar(avatar_url, username):
             image.write(response_content)
             return filename
     return None
-    
+
 username = input('Give a github usarname:\t')
 user = get_github_user(username)
 filename = download_github_user_avatar(user['avatar_url'], username)
