@@ -19,7 +19,9 @@ def multiplicacion(numero):
 #convertir numeros pares a true
 def num_pares(num_par):
     if num_par % 2 == 0:
-        return True   
+        return True
+    else:
+        return False   
         
 multiplicacion_lista = list(map(multiplicacion, Numeros_int))
 pares = list(map(num_pares, Numeros_int))
